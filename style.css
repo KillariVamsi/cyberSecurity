@@ -1,0 +1,779 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&family=Open+Sans&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color : aliceblue;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 130px;
+}
+
+#header-head{
+    padding: 15px;
+    color: blue;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#nav-links{
+    margin-right: 250px;
+}
+
+#nav-links a{
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+#nav-links a:hover{
+    color: black;
+    font-size: 25px;
+}
+
+.icon{
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px white;
+    margin: 10px;
+}
+
+.icon:hover{
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    background-color: blue;
+    margin-top: 130px;
+    width: 100%;
+    height: 700px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1{
+    border-style: none solid none none;
+    border-width: 3px;
+    border-color: white;
+    padding-right: 25px;
+    font-size: 70px;
+}
+
+#home p{
+    border-style: none none none none;
+    border-width: 1px;
+    border-color: white;
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+
+#head-f{
+    color: blueviolet;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0px auto;
+}
+
+#card{
+    width: 25%;
+    border: 15px solid whitesmoke;
+    border-radius: 35px;
+    box-shadow: 8px 8px 5px gray;
+    font-family: 'Open Sans', sans-serif;
+    height: 725px;
+    margin: 0px 35px;
+}
+
+#card-img:hover{
+    height: 450px;
+}
+
+#card-img{
+    width: 100%;
+    border-radius: 28px;
+
+}
+
+#card-details{
+    padding: 20px;
+    font-size: 20px;
+}
+
+#btn{
+    border: none;
+    background-color: white;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+#about{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 75%;
+    margin: 120px auto;
+}
+
+#a-img{
+    width: 50%;
+}
+
+#a-img img{
+    width: 100%;
+    height: 500px;
+    border-radius: 35px solid white;
+    border-radius: 60px;
+}
+
+#a-details h1{
+    color: blueviolet;
+}
+#a-details{
+    width: 50%;
+    font-size: 25px;
+    padding: 25px;
+    line-height: 30px;
+}
+
+#a-details p{
+    font-size: 18px;
+}
+
+#a-btn{
+    background-color: blue;
+    border: 0px solid white;
+    border-radius: 35px;
+    color: white;
+    padding: 20px 35px;
+    font-size: 20px;
+}
+
+#a-btn:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+#Security{
+    width: 90%;
+    margin: 0px auto 125px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sec-head{
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+}
+
+#sec-icon{
+    width: calc(50% - 2px - 100px - 20px);
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 5px grey, 2px 2px 5px white;
+    margin: 50px;
+    border-radius: 35px;
+    padding: 10px 5px 0px 5px;
+
+}
+
+.sec-det{
+    padding: 35px;
+}
+
+#sec-icon .p1{
+    font-size: 35px;
+    color: blueviolet;
+}
+
+#sec-icon .p2{
+    font-size: 23px;
+}
+
+#s-icon{
+    font-size: 55px;
+}
+
+#features{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70%;
+    margin: 0px auto 50px auto;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#f-thumbnail{
+    border: 0px solid whitesmoke;
+    border-radius: 20px;
+    height: 450px;
+    width: 450px;
+}
+
+#f-img,#feature-details{
+    margin: 20px;
+}
+
+#feature-details h1{
+    color: blueviolet;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#feature-details p{
+    font-size: 20px;
+}
+
+#file-l, #file{
+    font-size: 20px;
+    margin: 15px;
+    width: 100%;
+}
+
+#pricing-head{
+    color: blueviolet;
+    font-size: 48px;
+    text-align: center;
+}
+
+#price-wrapper{
+    width: 80%;
+    margin: 0px auto 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#price-card{
+    width: calc(33.33% - 30px - 4px - 40px);
+    border: 0px solid white;
+    border-radius: 45px;
+    box-shadow: 2px 2px 3px black, 2px 2px 3px whitesmoke;
+    padding: 15px;
+    text-align: center;
+    height: 600px;
+    margin: 20px;
+}
+
+#price-card h2{
+    font-size: 45px;
+    color: blueviolet;
+    margin: 0px;
+}
+
+table{
+    margin-left: 95px;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+td{
+    border-style: none none solid none;
+    border-color: skyblue ;
+    border-width: 1px;
+    padding: 20px;
+}
+
+#history-head{
+    color: blueviolet;
+    font-size: 38px;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+#history{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#history-count{
+    margin-right: 100px;
+    height: 100px;
+    width: 175px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    box-shadow : 2px 2px 3px black, 2px 2px 3px white;
+    text-align: center;
+    padding: 5px;
+    color: blueviolet;
+    font-size: 22px;
+}
+
+#history-details h2, h3{
+    color: blueviolet;
+}
+
+#history-details h2{
+    font-size: 35px;
+    margin: 0px;
+}
+
+#history-details p{
+    line-height: 25px;
+}
+
+#team-head{
+    color: blueviolet;
+    font-size: 38px;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+#team{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#team-mem{
+    width: calc(33% - 30px - 100px);
+    border: 0px solid whitesmoke;
+    box-shadow: 3px 3px 5px grey, 3px 3px 5px white;
+    border-radius: 45px;
+    margin: 15px;
+    padding: 50px;
+}
+
+#mem-pic img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#mem-details h3{
+    color: blueviolet ;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+#awards-head{
+    margin-left: 180px;
+    color: blueviolet;
+    font-size: 38px;
+    margin-top: 100px;
+}
+
+#award-wrapper{
+    width: 77%;
+    margin: 0px auto 30px;
+    border: 0px solid whitesmoke;
+    border-radius: 35px;
+    box-shadow: 3px 3px 5px grey, 3px 3px 5px white;
+}
+
+#award-blog{
+    padding: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#award-pic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#award-details{
+    font-size: 25px;
+    padding: 38px;
+    margin-left: 15px;
+    color: blueviolet;
+}
+
+#user-head{
+    color: blueviolet;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+#user-pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#user-blog{
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#user-blog p{
+    font-size: 20px;
+}
+
+#address{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70%;
+    margin: 100px auto;
+}
+
+#co{
+    width: calc(50% - 90px);
+    display: flex;
+    flex-wrap: nowrap;
+    border: 0px solid whitesmoke;
+    box-shadow: 3px 3px 5px grey, 3px 3px 5px white;
+    border-radius: 35px;
+    padding: 45px;
+    margin: 20px;
+}
+
+#cod h2{
+    color: blueviolet;
+}
+
+#cod h3{
+    color: blue;
+}
+
+#coi{
+    padding: 15px;
+    font-size: 38px;
+    text-align: center;
+    margin-top : 45px;
+}
+
+#cs{
+    width: calc(50% - 90px);
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid whitesmoke;
+    box-shadow: 3px 3px 5px grey, 3px 3px 5px white;
+    border-radius: 35px;
+    padding: 45px;
+    margin: 20px;
+}
+
+#cs h2{
+    color: blueviolet;
+}
+
+#cs h3{
+    color: blue;
+}
+
+#feed-head{
+    margin-left: 180px;
+    color: blueviolet;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+#feedback{
+    width: 80%;
+    margin: 0px auto 130px;
+}
+
+#name-ip{
+    width: 95%;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    font-size: 21px;
+    background-color: #edeff3;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+#mail-ip{
+    margin: 5px 5px 5px 10px;
+}
+
+#phone-ip{
+    margin: 15px ;
+}
+
+#phone-ip, #mail-ip{
+    width: 45.9%;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    font-size: 21px;
+    background-color: #edeff3;
+    margin: 5px;
+    padding: 15px;
+}
+
+#msg-ip{
+    width: 95%;
+    height: 200px;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    font-size: 21px;
+    background-color: #edeff3;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+#f-btn{
+    width: 200px;
+    padding: 18px;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: 1px solid whitesmoke;
+    background-color: skyblue;
+    color: white;
+    font-size: 18px;
+}
+
+#f-btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+#footer{
+    text-align: right;
+    margin-right: 140px;
+    margin-left: 160px;
+}
+
+#footer a{
+    padding: 15px;
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+
+#footer a:hover{
+    color: black;
+    font-size: 25px;
+}
+
+#cr{
+    width: 80%;
+    margin-left: 160px;
+    display: flex;
+    flex-wrap: nowrap ;
+    margin-bottom: 70px;
+}
+
+#cr-i{
+    margin-left: auto;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#cr-p{
+    font-size: 20px;
+}
+
+@media (max-width : 500px){
+    #home{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: blue;
+        margin-top: 130px;
+        width: 100%;
+        height: 700px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home h1{
+        border-style: none none none none;
+        margin-left: 120px;
+    }
+
+    #nav-links{
+        visibility: hidden;
+    }
+
+    #card-wrapper{
+        width: 100%;
+    }
+
+    #card{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    #about{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+
+    #a-details h1{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #a-details p{
+        width: 100%;
+    }
+
+    #Security{
+        width: 100%;
+    }
+    
+    #sec-head, #pricing-head, #history-head, #team-head, #awards-head, #user-head, #feed-head{
+        font-size: 30px;
+    }
+
+    #sec-icon{
+        width: 100%;
+    }
+
+    #features{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+
+    #price-card, #price-wrapper, #history{
+        width: 100%;
+    }
+
+    #history-count{
+        margin: 0px 40px;
+        height: 50px;
+        width: 250px;
+        border: 1px solid whitesmoke;
+        border-radius: 50%;
+        box-shadow : 2px 2px 3px black, 2px 2px 3px white;
+        text-align: center;
+        color: blueviolet;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    #history-details{
+        margin: 0px;
+    }
+
+    #team, #team-mem{
+        width: 100%;
+    }
+    #mem-details h3{
+        font-size: 30px;
+    }
+
+    #award-blog{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #award-wrapper, #award-blog{
+        width: 100%;
+    }
+    #address{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #co , #cs{
+        width: 100%;
+    }
+
+    #feedback{
+    width: 100%;
+    text-align: center;
+    }
+
+    #name-ip, #mail-ip, #phone-ip{
+        width: 95%;
+        height: 20px;
+        border: 1px solid whitesmoke;
+        border-radius: 30px;
+        font-size: 15px;
+        background-color: #edeff3;
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    #msg-ip{
+        width: 95%;
+        height: 200px;
+        border: 1px solid whitesmoke;
+        border-radius: 30px;
+        font-size: 15px;
+        background-color: #edeff3;
+        margin: 10px;
+        padding: 20px;
+    
+    }
+
+    #f-btn{
+        width: 150px;
+        height: 70px;
+        padding: 12px;
+        border-radius: 30px;
+        margin-left: 10px;
+        border: 1px solid whitesmoke;
+        background-color: skyblue;
+        color: white;
+        font-size: 18px;
+    }
+
+    #f-btn:hover{
+        background-color: blue;
+        cursor: pointer;
+    }
+
+    #footer{
+        text-align: right;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    #footer a{
+        padding: 15px;
+        text-decoration: none;
+        color: grey;
+        font-size: 18px;
+    }
+
+    #cr{
+        width: 100%;
+        margin-left: 25px;
+        text-align: center;
+
+    }
+
+    #cr-p{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    #cr-i{
+        padding: 10px;
+        margin-right: 50px;
+
+    }
+}        
